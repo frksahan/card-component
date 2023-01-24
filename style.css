@@ -49,7 +49,7 @@
     flex-direction: column;
     align-items: center;
     position: relative;
-    bottom: 130px;
+    bottom: 150px;
 }
 
 .image {
@@ -64,6 +64,7 @@
     font-family: 'Kumbh Sans', sans-serif;
     font-weight: bold;
     font-size: 18px;
+    text-align: center;
 }
 
 .age {
@@ -73,5 +74,28 @@
 
 .city {
     font-family: 'Kumbh Sans', sans-serif;
+    text-align: center;
+}
+
+.line-hr {}
+
+.section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-top: 30px;
+    font-family: 'Kumbh Sans', sans-serif;
+    font-weight: bold;
+}
+
+.follow {
+    text-align: center;
+}
+
+.like {
+    text-align: center;
+}
+
+.photo {
     text-align: center;
 }
